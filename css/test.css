@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: BlackAsylum;
+  src: url("../fonts/BlackAsylum.ttf") format("truetype");
+  font-weight: thin;
+  font-style: normal;
+}
+
+#top {
+  color: pink;
+  font-size: 48px;
+  font-family: BlackAsylum;
+}
+
+p.warning {
+  color: red;
+}
+
+p {
+  font-size: 20px;
+  color: blue;
+}
+
+body {
+  background-color: linen;
+  background-image: url(../images/car2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  color: hotpink;
+}
+
+ul {
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: orchid;
+}
+
+a:link{
+  color: mistyrose;
+  font-weight: bold;
+}
+
+a:visited{
+  color: orchid;
+  font-weight: normal;
+}
+
+a:hover{
+  color: aquamarine;
+  font-weight: bolder;
+  background-color: teal;
+}
+
+a:active{
+  color: red;
+  font-weight: bold;
+}
+
+li {
+  font: 16px Arial, sans-serif;
+  color: black;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+h1 {
+  color: green;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  border: 3px solid orange;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+
+main {
+  border: 3px dotted grey;
+  padding: 10px;
+  margin: 20px;
+  font-size: 120%;
+  color: navy;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  border: 2px dashed black;
+  padding: 10px;
+  margin: 20px;
+  font-size: 90%;
+}
